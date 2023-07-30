@@ -54,12 +54,13 @@ class _HomeScreenState extends State<HomeScreen> {
             ],
           ),
           const Expanded(
-              child: Center(
-            child: Text(
-              "Create or join meeting with just a click",
-              style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+            child: Center(
+              child: Text(
+                "Create or join meeting with just a click",
+                style: TextStyle(fontWeight: FontWeight.bold, fontSize: 16),
+              ),
             ),
-          ))
+          ),
         ],
       ),
       // backgroundColor: Colors.white,
